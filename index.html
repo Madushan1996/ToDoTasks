@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Scheduler</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Task Scheduler</h1>
+  <form id="todo-form">
+    <label for="task-input">Task:</label>
+    <input type="text" id="task-input" required>
+    <label for="due-date-input">Due Date and Time:</label>
+    <input type="datetime-local" id="due-date-input" required>
+    <button type="submit">Add</button>
+  </form>
+  <ul id="task-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
